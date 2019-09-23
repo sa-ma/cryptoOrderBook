@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux';
-import helloReducer from './helloReducer';
+import { currencyPairReducer } from './currencyPairReducer';
 
 export default combineReducers({
-  tables: helloReducer
+  currency: currencyPairReducer
 });
