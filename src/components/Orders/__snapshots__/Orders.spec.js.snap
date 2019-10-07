@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Order/> Component should render the Orders component 1`] = `ReactWrapper {}`;

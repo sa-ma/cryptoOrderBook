@@ -7,7 +7,7 @@ import {
 export const initialState = {
   loading: false,
   currencyPairs: [],
-  error: {}
+  error: ''
 };
 
 export const currencyPairReducer = (state = initialState, action) => {

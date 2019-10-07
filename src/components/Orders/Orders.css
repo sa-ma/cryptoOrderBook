@@ -1,0 +1,31 @@
+.order-container {
+  display: flex;
+  width: 100%;
+}
+.order-container div {
+  width: 100%;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+td,
+th {
+  padding: 6px;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+.error {
+  text-align: center;
+  padding: 2rem;
+  font-size: 1.2em;
+}
