@@ -3,6 +3,9 @@ export const initialState = {
   currencyPairs: [],
   error: {}
 };
+export const initialCurrencyState = {
+  singleCurrency: {}
+};
 
 export const getCurrencyData = {
   data: [
